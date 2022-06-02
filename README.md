@@ -1,15 +1,8 @@
-## Install
+# Prerequisite
+Nix: https://nixos.org/download.html
 
-Nix
-```
-// Linux:
-sh <(curl -L https://nixos.org/nix/install) --daemon
+# Install
 
-// MacOS:
-sh <(curl -L https://nixos.org/nix/install)
-```
-
-Run
 ```
 > nix-shell
 > go build
